@@ -11,8 +11,19 @@ server_scripts {
 
 client_scripts {
 	'config.lua',
-	'client/main.lua',
-	'client/warmenu.lua'
+	'client/nui.lua',
+	'client/main.lua'
 }
+
+
+files {
+    'ui/*',
+    'ui/assets/*',
+    'ui/assets/fonts/*'
+}
+    
+ui_page 'ui/index.html'
+
+version '2.0.0'
 
 dependency 'vorp_core'

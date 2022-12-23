@@ -10,8 +10,8 @@ Join the [VORP Community Discord](https://discord.gg/23MPbQ6)
 3. Update Text in a scene
 4. Hotkeys and/or commands
 5. Easily configurateble settings
-6. Json file storage  (Sql coming soon!)
-7. WarMenu UI
+6. Json file storage OR SQL Database storage
+7. Custom UI
 
 ## Installation
 1. Download this repo/codebase
@@ -32,20 +32,16 @@ Join the [VORP Community Discord](https://discord.gg/23MPbQ6)
 ### How to Edit
 1. Stand near your scene text, or enable scene ball and place it on your text
 2. Press B to display the scene menu
-3. Navigate with arrows, backspace and enter to confirm
-![image](https://user-images.githubusercontent.com/10902965/166846730-5e4c712f-5169-4397-9d5c-ee4037706bea.png)
+3. Navigate with your cursor to edit your scene
+![image](https://user-images.githubusercontent.com/10902965/202895902-90798e03-8dc4-4253-8a5e-91edd57046f2.png)
 
 
 ## How-to-configure
 All configurations available in `/config.lua`
 
 ## Disclaimers and Credits
-- I utilized Skate and rickx's [lto_scene](https://github.com/zelbeus/ricx_scene) codebase from the vorp prebuilt server for the base of this project.
-- I utilized the Sphere locator object from a similar old FiveM script [nh-scenes](https://github.com/nerohiro/nh-scenes). 
-
-## TODO
-- Create a config toggle for sql vs json storage, add sql support (db will give longer lived persistence to the scene texts)
-- Add a Vue based UI (for funsies).
+- Heavily inspired by rickx's [lto_scene](https://github.com/zelbeus/ricx_scene).
+- Heavily inspired by a similar old FiveM script [nh-scenes](https://github.com/nerohiro/nh-scenes). 
 
  ## Dependency
  - Vorp Core
